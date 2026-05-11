@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #bf2222;
+}
+
+.container{
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgb(71, 213, 112);
+    padding: 10px;
+    border-radius: 20px;
+}
+input{
+    width: 73%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid black;
+}
+
+#addTaskBtn{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+li{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+li button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 6px 10 px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+li button:hover{
+    background-color: darkred;
+}
+
+li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff6d8;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
