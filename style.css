@@ -1,18 +1,18 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #bf2222;
+    background-color: #ee3823;
 }
 
 .container{
     width: 400px;
     margin: 100px auto;
-    background-color: rgb(71, 213, 112);
+    background-color: rgb(214, 228, 133);
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 input{
-    width: 73%;
-    padding: 10px;
+    width: 70%;
+    padding: 6px;
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid gray;
@@ -20,10 +20,10 @@ input{
 }
 
 input:focus{
-    border: 1px solid black;
+    border:  1px solid black;
 }
 
-#addTaskBtn{
+#addButton{
     padding: 10px 15px;
     border-radius: 6px;
     border: none;
@@ -48,17 +48,17 @@ ul{
     list-style: none;
 }
 li button{
-    background-color: crimson;
+    background-color: rgb(3, 208, 58);
     color: white;
     border: none;
-    padding: 6px 10 px;
+    padding: 6px 10px;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.2s;
 
 }
 li button:hover{
-    background-color: darkred;
+    background-color: rgb(208, 7, 7);
 }
 
 li{
@@ -70,4 +70,23 @@ li{
     padding: 8px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 500px){
+    .container{
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    input{
+        width: 65%;
+    }
+
+    #addButton{
+        padding: 10px;
+    }
+}
+
+.completed{
+    font-weight: bold;
+    color: green;
 }
